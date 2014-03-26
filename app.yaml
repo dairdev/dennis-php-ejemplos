@@ -1,0 +1,20 @@
+application: dennis-php-ejemplos
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /variables-en-php.*
+  script: variables-en-php.php
+
+- url: /jquery-php-basico.*
+  script: jquery-php-basico.html
+
+- url: /traer_dato.php
+  script: traer_dato.php
+
+- url: /traer_datos_json.php
+  script: traer_datos_json.php
